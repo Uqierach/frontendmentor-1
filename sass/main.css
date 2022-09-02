@@ -1,1 +1,25 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  max-height: 667px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .main {
+  width: 85%;
+  margin: 100px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.container .main .main-qr-image {
+  width: 100%;
+}/*# sourceMappingURL=main.css.map */
