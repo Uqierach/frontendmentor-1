@@ -20,7 +20,9 @@ body::-webkit-scrollbar {
   background-color: white;
   box-shadow: -2px 5px 50px rgba(0, 0, 0, 0.095);
   padding: 20px;
-  width: 85%;
+  width: 50 0px;
+  max-width: 320px;
+  min-width: 320px;
   border-radius: 20px;
   overflow: hidden;
   position: absolute;
@@ -46,5 +48,5 @@ body::-webkit-scrollbar {
   font-size: 15px;
   font-weight: 400;
   color: hsl(218deg, 44%, 22%);
-  opacity: 0.8;
+  opacity: 0.7;
 }/*# sourceMappingURL=main.css.map */
